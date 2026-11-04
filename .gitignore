@@ -1,0 +1,19 @@
+# Model checkpoints
+model/
+*.pth
+*.pt
+
+# Private credentials
+.env
+.streamlit/secrets.toml
+
+# User videos and generated files
+uploads/
+outputs/
+
+# Python temporary files
+__pycache__/
+*.pyc
+
+# System files
+.DS_Store
